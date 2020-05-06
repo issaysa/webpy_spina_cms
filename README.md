@@ -1,5 +1,5 @@
 # webpy_spina_cms
-the way to use webpy img with spina cms
+the way to use webpy img with spina cms  
 app/model/spina/text.rb can be like this.
 
 ```ruby:app/model/spina/text.rb
@@ -40,8 +40,8 @@ module Spina
   end
 end
 ```
-
-active_storage/blobs/_spina_blob.html.erb can be like this.
+  
+active_storage/blobs/_spina_blob.html.erb can be like this.  
 
 ```erb:_spina_blob.html.erb
 <% if blob.representable? %>
